@@ -6,7 +6,7 @@ const Footer = () => (
       href='https://github.com/Naba-cloud'
       className='link footer__link'
     >
-     Created By Naba Zehra
+ Special Thanks To CHENG CHIEN.
     </a>
   </footer>
 )
