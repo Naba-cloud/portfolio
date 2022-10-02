@@ -1,22 +1,22 @@
-import aboutpic from "./components/Access/mePhoto.jpg"
+import aboutpic from "./components/Access/Naba.png"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://morganbb104.github.io/HW_20_Portfolio_withReact/',
+  homepage: 'https://github.com/Naba-cloud',
   title: 'JS.',
 }
 
 const about = {
   photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
-  name: 'CHENG CHIEN',
-  role: 'Full stack developer',
+  name: 'Naba Zehra',
+  role: 'Front End developer',
   description:
-    'UW bootcamp student.originally from Taiwan now living in Seattle, USA. highly interested in cutting edge technology, coding and biology.',
-  resume: 'https://example.com',
+    'A passionate frontend developer, who loves digginig into problems living in karachi Pakistan highly interested in cutting edge technology and coding.',
+  resume: 'https://drive.google.com/file/d/1vZOhqckofc7DRSwoJCIt6wzFZhiRfL_f/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/cheng-chien-huang-912467152/',
-    github: 'https://github.com/Morganbb104',
+    linkedin: 'https://www.linkedin.com/in/naba-zehra-291015145',
+    github: 'https://github.com/Naba-cloud',
   },
 }
 
@@ -24,12 +24,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Movie Tracker',
+    name: 'Qoute Generator',
     description:
-      'As users, we see a page that lets anyone look for the movies from the search bar by key words, and obtaining the actual or similar movies with their years, actors, rating, and description information by recommendation. In addition, they can search the nearby theaters from where they currently are located.',
-    stack: ['localstorage', 'Openweather API', 'Google Map API','Movie Database API'],
+      'As users, we see a page where you can get the random qoute by just clicking the get qoute button.',
+    stack: [ 'Random Qoute API', 'React','Bootstrap'],
     sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://mike-c-sanders.github.io/Movie-Tracker/',
+    livePreview: 'https://2yk8v.csb.app/',
   },
   {
     name: 'Event Planner',
@@ -55,21 +55,18 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
-  'Express',
-  'MySQL',
-  'MongoDB',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Chakra-ui',
+  'Bootstrap',
   'Git',
-  'MERN',
+  'Problem Solving'
+ 
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'hcc780921@gmail.com',
+  email: 'nabazehra45@gmail.com',
 }
 
 export { header, about, projects, skills, contact }

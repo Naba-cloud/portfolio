@@ -28,6 +28,12 @@
 .about .btn--outline {
   margin-right: 1em;
 }
+.btn--outline{
+border-radius: 50px;
+width: 8rem !important;
+text-align:center!important;
+text-transform: none!important;
+}
 
 @media (max-width: 600px) {
   .app .about {
