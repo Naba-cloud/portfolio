@@ -7,7 +7,7 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Naba Zehra',
   role: 'Front End developer',
@@ -26,26 +26,26 @@ const projects = [
   {
     name: 'Qoute Generator',
     description:
-      'As users, we see a page where you can get the random qoute by just clicking the get qoute button.',
-    stack: [ 'Random Qoute API', 'React','Bootstrap'],
+      'This quote generator app fetches quotes randomly from a quote API and presents them in a visually appealing manner using React.js. The frontend built with React.js will provide a dynamic and responsive user interface for users to browse and discover new quotes.The user experience will be seamless and the app will provide an enjoyable way for users to discover new quotes.',
+    stack: ['Random Qoute API', 'React', 'Bootstrap'],
     sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
     livePreview: 'https://2yk8v.csb.app/',
   },
   {
-    name: 'Event Planner',
+    name: 'Authentication And Authorization',
     description:
-      'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
-    stack: ['swiper.js', 'npm', 'jawsdb','handlebars','express','nodejs'],
-    sourceCode: 'https://github.com/Morganbb104/Event_Planner_project2',
-    livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
+      'This project aims to implement secure user authentication and authorization using Node.js, bcryptjs, and Express.js. Bcryptjs will be used for hashing and salting the user passwords for storage in the database. Express.js will provide the web framework for building the API endpoints, and handle incoming requests for authentication and authorization. The authentication process will include user signup and login functionality, with authorization controlling access to protected resources based on user roles and permissions.',
+    stack: ['Javascript', 'npm', 'Nodejs', 'Express','JSONwebtoken','Bcrypt'],
+    sourceCode: 'https://github.com/Naba-cloud/node-authentication-and-authorization',
+    // livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
   },
   {
-    name: 'Resource Planner',
+    name: 'Player Record',
     description:
-      'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
-    stack: ['html-css-javascript', 'sequelize', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This CRUD app allows users to add and manage player data, including name and speed in units. The frontend of the app is built with React.js and the backend uses Node.js, Express.js and MongoDB. The app allows users to increment and decrement points, making it suitable for tracking player scores. The user interface is intuitive and easy to use, making it possible for users to add, edit, and manage player data with ease. The data is stored in a MongoDB database and accessed via a set of REST APIs built with Express.js. The app provides a complete solution for tracking player data, from data entry to score updates.',
+    stack: ['html-css-javascript', 'React', 'Node','Express','MongoDb'],
+    sourceCode: 'https://github.com/Naba-cloud/ui-board',
+    
   },
 ]
 
@@ -57,11 +57,12 @@ const skills = [
   'JavaScript',
   'React',
   'Chakra-ui',
+  'Tailwind',
   'Bootstrap',
   'Git',
   'Problem Solving'
- 
-  
+
+
 ]
 
 const contact = {
