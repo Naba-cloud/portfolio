@@ -10,12 +10,12 @@ const about = {
   photo: aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'Naba Zehra',
-  role: 'Front End developer',
+  role: 'Software Engineer',
   description:
-    'A passionate frontend developer, who loves digginig into problems living in karachi Pakistan highly interested in cutting edge technology and coding.',
-  resume: 'https://drive.google.com/file/d/1vZOhqckofc7DRSwoJCIt6wzFZhiRfL_f/view?usp=sharing',
+    'A passionate software engineer, who loves digginig into problems living in karachi Pakistan highly interested in cutting edge technology and problem solving.',
+  resume: 'https://drive.google.com/file/d/1SePzhPrIM9XjsbladDox62f-3QJEipp3/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/naba-zehra-291015145',
+    linkedin: 'https://www.linkedin.com/in/naba-zehra-dev/',
     github: 'https://github.com/Naba-cloud',
   },
 }
@@ -23,30 +23,54 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+ 
   {
-    name: 'Qoute Generator',
-    description:
-      'This quote generator app fetches quotes randomly from a quote API and presents them in a visually appealing manner using React.js. The frontend built with React.js will provide a dynamic and responsive user interface for users to browse and discover new quotes.The user experience will be seamless and the app will provide an enjoyable way for users to discover new quotes.',
-    stack: ['Random Qoute API', 'React', 'Bootstrap'],
-    sourceCode: 'https://github.com/Mike-C-Sanders/Movie-Tracker',
-    livePreview: 'https://2yk8v.csb.app/',
+    name: 'The Loanedge',
+    description:'A secure web application for managing loan processes, providing dashboards, tracking, and approvals. The frontend is built with React.js, while the backend handles API integrations and business logic. Access requires credentials',
+    stack: ['React', 'Antd', 'Axios'],
+    livePreview: 'https://www.theloanedge.com/',
+    role:"Frontend Engineer",
+    professional:'Yes',
+    type:'Professional',
   },
   {
-    name: 'Authentication And Authorization',
-    description:
-      'This project aims to implement secure user authentication and authorization using Node.js, bcryptjs, and Express.js. Bcryptjs will be used for hashing and salting the user passwords for storage in the database. Express.js will provide the web framework for building the API endpoints, and handle incoming requests for authentication and authorization. The authentication process will include user signup and login functionality, with authorization controlling access to protected resources based on user roles and permissions.',
-    stack: ['Javascript', 'npm', 'Nodejs', 'Express','JSONwebtoken','Bcrypt'],
-    sourceCode: 'https://github.com/Naba-cloud/node-authentication-and-authorization',
-    // livePreview: 'https://obscure-chamber-98928.herokuapp.com/',
-  },
-  {
-    name: 'Player Record',
-    description:
-      'This CRUD app allows users to add and manage player data, including name and speed in units. The frontend of the app is built with React.js and the backend uses Node.js, Express.js and MongoDB. The app allows users to increment and decrement points, making it suitable for tracking player scores. The user interface is intuitive and easy to use, making it possible for users to add, edit, and manage player data with ease. The data is stored in a MongoDB database and accessed via a set of REST APIs built with Express.js. The app provides a complete solution for tracking player data, from data entry to score updates.',
-    stack: ['html-css-javascript', 'React', 'Node','Express','MongoDb'],
-    sourceCode: 'https://github.com/Naba-cloud/ui-board',
+    name: 'Wander AI',
+    description:'WanderAI is a React Native mobile app that acts as an AI-powered travel assistant, helping users plan trips, explore destinations, and get personalized recommendations on the go. The app provides a smooth and responsive mobile experience, allowing users to search locations, view suggested itineraries, and interact with AI-generated content seamlessly.',
+    stack: ['React Native', 'AI-powered travel suggestions','React-native-paper'],
+    sourceCode: 'https://github.com/code-with-sahbaan/WanderAI',
+     type:'Personal',
     
   },
+   {
+    name: 'Project Setup CLI',
+    description:'This CLI tool helps developers quickly scaffold JavaScript projects (React, Vue, Node.js) with optional UI libraries, routing, and linting/formatting configurations. It provides an easy and consistent way to create project structures, saving setup time and ensuring best practices from the start.',
+    stack: ['Node.js CLI','Node.js','project scaffolding'],
+    sourceCode: 'https://github.com/Naba-cloud/project-cli',
+    livePreview: 'https://www.npmjs.com/package/setup-project-js',
+     type:'Personal',
+  },
+  {
+    name: 'ERM Assess',
+    description:'ERM Audit is a web application designed for managing audits efficiently. Users can create audit observations, upload photos and documents, and generate comprehensive audit reports. The app streamlines the auditing workflow, ensuring accurate record-keeping and easy report generation.',
+    stack: ['Reactjs', 'Bootstrap','Nextjs','Axios'],
+    type:'Professional',
+   
+    
+  },
+   {
+    name: 'ERM Assess Mobile App',
+    description:'ERM Audit is a mobile application designed for managing audits and action items in online and offline modes.',
+    stack: ['ReactNative', 'React-native-paper','Redux Toolkit'],
+    type:'Professional',
+   
+    
+  },
+  {
+    name:'Resume Analyzer',
+    description:'A web application that uses Gemini API and Vercel serverless functions to analyze resumes, providing insights on skills, experience, and relevance for job positions. Designed for a client, the app automates resume review and helps recruiters quickly evaluate candidates.',
+    stack:['React.js','Vercel serverless functions','Gemini API'],
+    type:'Professional'
+  }
 ]
 
 const skills = [
@@ -55,14 +79,13 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
+  'Typescript',
+  'Nextjs',
   'React',
-  'Chakra-ui',
-  'Tailwind',
-  'Bootstrap',
+  'React Native',
+  'Nodejs',
   'Git',
   'Problem Solving'
-
-
 ]
 
 const contact = {

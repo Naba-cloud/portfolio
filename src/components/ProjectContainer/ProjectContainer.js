@@ -2,12 +2,14 @@ import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
+import { Badge } from '@material-ui/core'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-
+<Badge color="primary" overlap="circular" badgeContent={`${project?.type}`}/>
     <p className='project__description'>{project.description}</p>
+   
     {project.stack && (
       <ul className='project__stack'>
         {project.stack.map((item) => (
@@ -17,6 +19,7 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+
 
     {project.sourceCode && (
       <a
